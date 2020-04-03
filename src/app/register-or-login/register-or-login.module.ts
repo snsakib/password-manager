@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import {MatTabsModule} from '@angular/material/tabs';
+
 import { RegisterOrLoginRoutingModule } from './register-or-login-routing.module';
 import { RegisterOrLoginComponent } from './register-or-login.component';
 
@@ -9,7 +11,8 @@ import { RegisterOrLoginComponent } from './register-or-login.component';
   declarations: [RegisterOrLoginComponent],
   imports: [
     CommonModule,
-    RegisterOrLoginRoutingModule
+    RegisterOrLoginRoutingModule,
+    MatTabsModule
   ]
 })
 export class RegisterOrLoginModule { }
