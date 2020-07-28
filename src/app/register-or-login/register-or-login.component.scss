@@ -7,10 +7,14 @@
 }
 mat-tab-group {
     position: absolute;
-    width: 18.75rem; // 300px
+    width: 18.75rem; //300px
     margin: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid red;
+
+    @media screen and (min-width: '550px') {
+        width: 25rem; //400px
+    }
 }
